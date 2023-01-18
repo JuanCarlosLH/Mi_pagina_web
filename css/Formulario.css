@@ -1,0 +1,15 @@
+header{
+    color: rgb(252, 247, 247);
+}
+body{
+   background-color: black;
+   color: aliceblue;
+}
+footer{
+    color: rgb(29, 29, 29);
+    margin-top: 40px;
+    background-image: url(/img/la.jpg);
+    text-align: center;
+    height: 300px;
+    font-size: 40px;
+}

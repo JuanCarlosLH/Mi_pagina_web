@@ -1,0 +1,98 @@
+body{
+    background-image: url(/img/las.jpg);
+}
+header{
+    text-align: center;
+    background: linear-gradient(rgb(82, 204, 0),rgb(114, 113, 113));
+    height: 100px;
+}
+.row{
+    margin-top: 100px;
+
+}
+.imagen{
+    border: solid;
+    margin: 5px;
+    background-color: greenyellow;
+}
+.imagen img{
+    border: solid;
+    width: 250px;
+    height: 200px;
+   
+    
+}
+.redes{
+    display: block;
+    float: right;
+    width: 150px;
+    height: auto;
+    margin-top: -600px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    height: 80px;
+    padding: 40px;
+    background-image: url(/img/423348.jpg);
+    
+}
+
+#hover > img{
+    
+    opacity: 0.5;
+}
+#hover > img:hover{
+    opacity: 1;
+}
+
+ul{
+    list-style: none;
+}
+#menu li a{
+    background-color: rgb(131, 124, 124);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+
+
+#navb> li{
+    float: left;
+}
+#menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+#navb li:hover >ul{
+    display: block;
+}
+
+#navb li ul li{
+    position: relative;
+}
+#navb li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+.seccions
+{
+background-color: rgb(0, 38, 163);
+}
+#menu li a:hover{
+    background-color: rgb(27, 3, 248);
+    }
+
+    header button{
+margin-left: 1200px;
+margin-top: -40px;
+    }
+.row{
+    margin-left: 10px;
+}
